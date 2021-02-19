@@ -2,7 +2,6 @@
 <head>
     <title>Parcel Sandbox</title>
     <meta charset="UTF-8"/>
-    <link rel="stylesheet" type="text/css" href="src/styles.scss"/>
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <!-- Canonical -->
     <link rel="canonical" href="https://www.example.com">
@@ -32,14 +31,20 @@
     <meta property="og:image:height" content="630">
     <!-- Favicon -->
     <meta name="theme-color" content="#fff">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=DM+Sans:wght@400;500;700&family=Work+Sans:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="src/styles.scss"/>
 </head>
 
 <body>
-<include src="src/partials/nav.html"></include>
-
-<div class="container">
-    <h1>Quick Start Parcel Project</h1>
+<div class="intro position-relative bg-primary">
+    <include src="src/partials/nav.html"></include>
+    <div class="container">
+        <h1 class="text-white">Quick Start Parcel Project</h1>
+    </div>
 </div>
+
 
 <include src="src/partials/footer.html"></include>
 
